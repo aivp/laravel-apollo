@@ -11,7 +11,7 @@
         public function boot()
         {
             $this->publishes([
-                                 __DIR__.'/../config/apollo.php' => config_path('apollo.php'),
+                                 __DIR__.'/../../config/apollo.php' => config_path('apollo.php'),
                              ], 'config');
 
             if ($this->app->runningInConsole()) {
