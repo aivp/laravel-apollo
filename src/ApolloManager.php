@@ -61,7 +61,6 @@
             };
             if ($action == 'start') {
                 $this->apollo->start($callback); //此处传入回调
-                $this->info("start successfully");
             }
         }
 
