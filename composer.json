@@ -1,0 +1,29 @@
+{
+    "name": "ling5821/laravel-apollo",
+    "description": "Laravel Apollo Client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "linG",
+            "email": "3137168214@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/console": "5.8.*",
+        "illuminate/support": "5.8.*",
+        "illuminate/container": "5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ling5821\\LaravelApollo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ling5821\\LaravelApollo\\Providers\\ApolloServiceProvider"
+            ]
+        }
+    }
+}
