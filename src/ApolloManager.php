@@ -61,6 +61,9 @@
             };
             if ($action == 'start') {
                 $this->apollo->start($callback); //此处传入回调
+            } else if ($action == 'pull') {
+                $this->apollo->setMaxLoopSeconds(20);
+                $this->apollo->start($callback); //此处传入回调
             }
         }
 
